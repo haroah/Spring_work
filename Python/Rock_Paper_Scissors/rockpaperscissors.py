@@ -13,7 +13,7 @@ while True:
     if user_input not in options:
         continue
 
-    random_number = random.ranRdint(0, 2)
+    random_number = random.randint(0, 2)
     # rock: 0, paper: 1, scissors: 2
     computer_pick = options[random_number]
     print("Computer picked", computer_pick + ".")
